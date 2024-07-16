@@ -1,4 +1,3 @@
-Tabii, işte kodun adım adım ne yaptığını, amacını ve işlevini açıklayan bir rapor:
 
 Kodun Amacı ve Genel İşlevi
 Bu kod, kullanıcıdan pizza ve içecek seçimi yapmasını isteyen basit bir pizza sipariş uygulamasıdır. Kullanıcının seçimine göre toplam ücreti hesaplar ve siparişin başarıyla alınıp alınmadığını gösteren bir mesaj görüntüler.
