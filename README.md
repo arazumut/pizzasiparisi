@@ -84,8 +84,6 @@ Tkinter Arayüzü
 Ürün araması için bir arama kutusu ve "Ara" butonu.
 "Ürün Ekleme Sayfasına Geç" butonu, ürün ekleme sayfasına geçiş yapar.
 Ana Program Döngüsü
-python
-Kodu kopyala
 root.mainloop()
 root.mainloop(): Tkinter penceresini açık tutar ve kullanıcı etkileşimlerini bekler.
 Bu kod temel bir stok takip uygulaması için gerekli olan işlevleri sağlar. Tkinter arayüzü sayesinde kullanıcı, ürünleri ekleyebilir, güncelleyebilir, silebilir ve arama yapabilir. JSON dosyası verilerin kalıcı bir şekilde saklanmasını sağlar.
