@@ -88,7 +88,10 @@ root.mainloop()
 root.mainloop(): Tkinter penceresini açık tutar ve kullanıcı etkileşimlerini bekler.
 Bu kod temel bir stok takip uygulaması için gerekli olan işlevleri sağlar. Tkinter arayüzü sayesinde kullanıcı, ürünleri ekleyebilir, güncelleyebilir, silebilir ve arama yapabilir. JSON dosyası verilerin kalıcı bir şekilde saklanmasını sağlar.
 
+![Ekran görüntüsü 2024-08-05 122320](https://github.com/user-attachments/assets/18aee097-9b9a-432d-b2c4-00be97b1e6d8)
 
+![Ekran görüntüsü 2024-08-05 122245](https://github.com/user-attachments/assets/1f774dbf-3d63-460a-a49a-a5842ef7a603)
+![Ekran görüntüsü 2024-08-05 122303](https://github.com/user-attachments/assets/a948f787-f51c-419f-9610-f7d41a3c8bda)
 
 
 
