@@ -1,4 +1,7 @@
-
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> 
+    </a> 
+    <h1>Pizza sipariş uygulaması</h1>
 Kodun Amacı ve Genel İşlevi
 Bu kod, kullanıcıdan pizza ve içecek seçimi yapmasını isteyen basit bir pizza sipariş uygulamasıdır. Kullanıcının seçimine göre toplam ücreti hesaplar ve siparişin başarıyla alınıp alınmadığını gösteren bir mesaj görüntüler.
 
