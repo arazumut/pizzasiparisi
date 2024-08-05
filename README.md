@@ -29,6 +29,66 @@ switch yapıları ile kullanıcının seçimine göre pizza ve içecek ücretler
 Özet
 Bu kod, kullanıcıdan pizza ve içecek seçimi yapmasını isteyen, ardından seçime göre toplam ücreti hesaplayarak siparişin başarıyla alındığını veya alınamadığını gösteren bir pizza sipariş uygulamasıdır. Kullanıcıdan alınan bilgilerle sipariş oluşturulur ve toplam ücret hesaplanarak kullanıcının bakiyesinden düşülür. Kodda birkaç mantık hatası bulunmakta olup, bu hatalar düzeltilerek daha doğru çalışması sağlanabilir.
 
+<h1>Stok Takip</h1>
+ <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
+    </a> 
+Ürün Ekleme Fonksiyonu
+add_product():
+Kullanıcının girdiği ürün adı (entry_name) ve miktar (entry_quantity) alınır.
+Ürün adı boş değilse ve miktar bir sayıysa:
+Miktar int türüne dönüştürülür.
+JSON dosyasından mevcut ürün verileri yüklenir.
+Ürün adı daha önce listede varsa, miktarı güncellenir. Eğer yoksa, yeni bir ürün olarak eklenir.
+Güncellenmiş veriler JSON dosyasına kaydedilir.
+Ürün listeleme alanı güncellenir.
+Girdi kutuları temizlenir.
+Eğer girdi geçersizse, hata mesajı gösterilir.
+Ürün Güncelleme Fonksiyonu
+update_product(action):
+Listeden seçili ürünü alır.
+Ürünün miktarını artırma ("increase") veya azaltma ("decrease") işlemi yapar.
+Güncellenmiş veriler JSON dosyasına kaydedilir.
+Ürün listeleme alanı güncellenir.
+Ürün Silme Fonksiyonu
+delete_product():
+Listeden seçili ürünü alır.
+Bu ürünü ürün verilerinden siler.
+Güncellenmiş veriler JSON dosyasına kaydedilir.
+Ürün listeleme alanı güncellenir.
+Arama Fonksiyonu
+search_product():
+Kullanıcının arama kutusuna girdiği terimi alır.
+Ürün listesini terime göre filtreler ve arama sonucunu listede gösterir.
+Liste Güncelleme Fonksiyonu
+update_listbox():
+JSON dosyasındaki ürünleri yükler ve liste kutusunu günceller.
+Ürünler alfabetik sıraya göre listelenir.
+Sayfa Değiştirme Fonksiyonları
+switch_to_list_page():
+
+Ürün ekleme sayfasını gizler ve ürün listesi sayfasını gösterir.
+switch_to_add_page():
+
+Ürün listesi sayfasını gizler ve ürün ekleme sayfasını gösterir.
+Tkinter Arayüzü
+Ürün Ekleme Sayfası (page_frame):
+
+Ürün adı ve miktarını girmek için giriş kutuları.
+"Ürün Ekle" butonu, ürün ekleme işlemini başlatır.
+"Liste Sayfasına Geç" butonu, ürün listesi sayfasına geçiş yapar.
+Ürün Listesi Sayfası (list_frame):
+
+Ürünlerin listelendiği bir listbox.
+"Ürünü Arttır", "Ürünü Azalt" ve "Ürünü Sil" butonları, ilgili işlemleri yapar.
+Ürün araması için bir arama kutusu ve "Ara" butonu.
+"Ürün Ekleme Sayfasına Geç" butonu, ürün ekleme sayfasına geçiş yapar.
+Ana Program Döngüsü
+python
+Kodu kopyala
+root.mainloop()
+root.mainloop(): Tkinter penceresini açık tutar ve kullanıcı etkileşimlerini bekler.
+Bu kod temel bir stok takip uygulaması için gerekli olan işlevleri sağlar. Tkinter arayüzü sayesinde kullanıcı, ürünleri ekleyebilir, güncelleyebilir, silebilir ve arama yapabilir. JSON dosyası verilerin kalıcı bir şekilde saklanmasını sağlar.
 
 
 
